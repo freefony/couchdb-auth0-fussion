@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/freefony/couchdb-auth0-fussion/issues"
   },
-  "homepage": "https://github.com/freefony/couchdb-auth0-fussion#readme"
+  "homepage": "https://github.com/freefony/couchdb-auth0-fussion#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
