@@ -1,0 +1,25 @@
+{
+  "name": "couchdb-auth0-fussion",
+  "version": "0.0.1",
+  "description": "node application for integrating auth0 authentication and users with couchdb authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freefony/couchdb-auth0-fussion.git"
+  },
+  "keywords": [
+    "authentication",
+    "couchdb",
+    "auth0",
+    "nodejs"
+  ],
+  "author": "Femi Oni freefony@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freefony/couchdb-auth0-fussion/issues"
+  },
+  "homepage": "https://github.com/freefony/couchdb-auth0-fussion#readme"
+}
