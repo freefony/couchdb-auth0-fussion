@@ -4,6 +4,13 @@ const admin_password = process.env.pass
 
 module.exports = {
   dev: {
-    CouchDB_URL: 'http://' + admin_username + ':' + admin_password + '@localhost:5984/_users'
+    protocol: 'http',
+    baseUrl: 'localhost',
+    port: '5984',
+    paths: {
+      users: '/_users/',
+      session: '/_session/'
+    },
+    auth: admin_username + ':' + admin_password
   }
 }
